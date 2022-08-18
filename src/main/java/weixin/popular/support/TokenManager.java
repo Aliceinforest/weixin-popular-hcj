@@ -70,11 +70,11 @@ public class TokenManager{
 	
 	/**
 	 * 初始化token 刷新，每118分钟刷新一次。
-	 * @param appid appid
+	 * @param appId appId
 	 * @param secret secret
 	 */
-	public static void init(final String appid,final String secret){
-		init(appid, secret, 0, 60*118);
+	public static void init(final String appId,final String secret){
+		init(appId, secret, 0, 60*118);
 	}
 
 	/**
